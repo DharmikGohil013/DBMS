@@ -1,0 +1,39 @@
+Task1:-
+create table supplier
+as (select * from employee);
+desc supplier;
+rename supplier to employee1;
+desc employee1;
+rename employee1 to supplier;
+desc supplier;
+Task2:-
+create table sup1
+as select emp_name,emp_no from employee;
+desc sup1;
+Task 3:-
+create table sup2 
+as select * from employee where 1=0;
+desc sup2;
+insert into sup2
+select * from employee where emp_name like 'dharmik';
+select * from sup2;
+Task-4:-
+rename sup2 to sup3;
+Task-5:- 
+delete from sup1;
+create table sup4
+as select * from employee;
+drop table sup4;
+Task-6:-
+alter table employee
+add phone varchar2(10);
+Task-7:-
+ALTER TABLE employee   
+MODIFY phone char(10); 
+task 9:
+ALTER TABLE sup4
+DROP COLUMN emp_name;
+task 10:
+ALTER TABLE supp1
+RENAME COLUMN emp_sal TO new_sal;
+select * from supp1;

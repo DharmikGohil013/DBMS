@@ -1,0 +1,48 @@
+task1:
+select * from employee;
+select * from job1;
+select * from deposit;
+task2:
+select job_titel , max_sal from job1;
+task 3:
+SELECT DISTINCT bname FROM deposit;
+task 4:
+SELECT emp_no,a_date FROM deposit
+ WHERE a_date between '01-jun-23' and '03-jun-23';
+task 5:
+select name,amount from deposit
+where a_date>'09-jan-06';
+task 6:
+select emp_name,emp_sal from employee 
+where dept_no = '20';
+task 7:
+select emp_no,emp_name,dept_no from employee
+where dept_no in(10,20);
+task 8:
+select emp_no,emp_name,dept_no from employee
+where not dept_no in(10,20)
+or dept_no = 25;
+task 9:
+select emp_no,emp_name,dept_no from employee
+where dept_no between '15' and '25';
+task 10:
+select emp_name,emp_comm from employee
+where emp_comm is not null;
+task 11:
+SELECT CONCAT(min_sal, max_sal) AS salary_range
+FROM job1;
+task 16:
+update employee
+set emp_name='dharmik2'
+where emp_no=103;
+select * from employee;
+task 17:
+select max_sal,min_sal from job1;
+task 18:
+SELECT AVG(emp_sal) AS average_salary
+FROM employee;
+task 19:
+
+
+
+
