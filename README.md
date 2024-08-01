@@ -1,2 +1,0 @@
-# DBMS
-All DBMS Practical
