@@ -1,0 +1,41 @@
+task 1:
+select * from employee;
+select emp_name 
+from employee
+where emp_name Like 'd_a%' ;
+task 2:
+select * from employee;
+select emp_name,emp_no,emp_sal 
+from employee
+where emp_name like 'ana%';
+task 3:
+select * from employee;
+select * from employee
+where emp_name  like '_h%' or emp_name like '_m%';
+task 4:
+select * from borrow;
+select * from borrow 
+where bname like 'katargam%' or bname like 'varach%' or bname like 'vesu%';
+task 5:
+select * from job1;
+select job_titel from job1
+where job_id like 'fi%'; 
+task 6:
+select * from job1;
+select job_titel from job1
+where job_titel like '%ger';
+task 7:
+select * from employee;
+select * from employee
+where emp_name like '_n%' or LENGTH(emp_name) <= 5;
+task 8:
+select * from employee;
+select * from employee
+where emp_name like '__a%';
+task 9:
+SELECT * FROM job1
+WHERE job_id LIKE '%/_%'ESCAPE'/';
+
+
+
+
