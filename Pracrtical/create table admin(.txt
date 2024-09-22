@@ -1,0 +1,89 @@
+create table admin(
+id INT AUTO_INCREMENT PRIMARY KEY,
+name varchar(50) Not Null,
+email varchar(50) Not Null,
+mo_number varchar(50) Not Null,
+password varchar(10) not null);
+
+	
+
+INSERT INTO users (name, email, mo_number, rol, dept) VALUES ('student_name_2', '23dit002@xyz.edu.in', '9000000002', 'nun', 'it');
+INSERT INTO users (name, email, mo_number, rol, dept) VALUES ('student_name_3', '23dit003@xyz.edu.in', '9000000003', 'nun', 'it');
+INSERT INTO users (name, email, mo_number, rol, dept) VALUES ('student_name_4', '23dit004@xyz.edu.in', '9000000004', 'nun', 'it');
+INSERT INTO users (name, email, mo_number, rol, dept) VALUES ('student_name_5', '23dit005@xyz.edu.in', '9000000005', 'nun', 'it');
+INSERT INTO users (name, email, mo_number, rol, dept) VALUES ('student_name_6', '23dit006@xyz.edu.in', '9000000006', 'nun', 'it');
+INSERT INTO users (name, email, mo_number, rol, dept) VALUES ('student_name_7', '23dit007@xyz.edu.in', '9000000007', 'nun', 'it');
+INSERT INTO users (name, email, mo_number, rol, dept) VALUES ('student_name_8', '23dit008@xyz.edu.in', '9000000008', 'nun', 'it');
+INSERT INTO users (name, email, mo_number, rol, dept) VALUES ('student_name_9', '23dit009@xyz.edu.in', '9000000009', 'nun', 'it');
+INSERT INTO users (name, email, mo_number, rol, dept) VALUES ('student_name_10', '23dit010@xyz.edu.in', '9000000010', 'nun', 'it');
+INSERT INTO users (name, email, mo_number, rol, dept) VALUES ('student_name_11', '23dit011@xyz.edu.in', '9000000011', 'nun', 'it');
+INSERT INTO users (name, email, mo_number, rol, dept) VALUES ('student_name_12', '23dit012@xyz.edu.in', '9000000012', 'nun', 'it');
+INSERT INTO users (name, email, mo_number, rol, dept) VALUES ('student_name_13', '23dit013@xyz.edu.in', '9000000013', 'nun', 'it');
+INSERT INTO users (name, email, mo_number, rol, dept) VALUES ('student_name_14', '23dit014@xyz.edu.in', '9000000014', 'nun', 'it');
+INSERT INTO users (name, email, mo_number, rol, dept) VALUES ('student_name_15', '23dit015@xyz.edu.in', '9000000015', 'nun', 'it');
+INSERT INTO users (name, email, mo_number, rol, dept) VALUES ('student_name_16', '23dit016@xyz.edu.in', '9000000016', 'nun', 'it');
+INSERT INTO users (name, email, mo_number, rol, dept) VALUES ('student_name_17', '23dit017@xyz.edu.in', '9000000017', 'nun', 'it');
+INSERT INTO users (name, email, mo_number, rol, dept) VALUES ('student_name_18', '23dit018@xyz.edu.in', '9000000018', 'nun', 'it');
+INSERT INTO users (name, email, mo_number, rol, dept) VALUES ('student_name_19', '23dit019@xyz.edu.in', '9000000019', 'nun', 'it');
+INSERT INTO users (name, email, mo_number, rol, dept) VALUES ('student_name_20', '23dit020@xyz.edu.in', '9000000020', 'nun', 'it');
+
+
+UPDATE student SET password = 'dit002' WHERE name = 'student_name_2';
+UPDATE student SET password = 'dit003' WHERE name = 'student_name_3';
+UPDATE student SET password = 'dit004' WHERE name = 'student_name_4';
+UPDATE student SET password = 'dit005' WHERE name = 'student_name_5';
+UPDATE student SET password = 'dit006' WHERE name = 'student_name_6';
+UPDATE student SET password = 'dit007' WHERE name = 'student_name_7';
+UPDATE student SET password = 'dit008' WHERE name = 'student_name_8';
+UPDATE student SET password = 'dit009' WHERE name = 'student_name_9';
+UPDATE student SET password = 'dit010' WHERE name = 'student_name_10';
+UPDATE student SET password = 'dit011' WHERE name = 'student_name_11';
+UPDATE student SET password = 'dit012' WHERE name = 'student_name_12';
+UPDATE student SET password = 'dit013' WHERE name = 'student_name_13';
+UPDATE student SET password = 'dit014' WHERE name = 'student_name_14';
+UPDATE student SET password = 'dit015' WHERE name = 'student_name_15';
+UPDATE student SET password = 'dit016' WHERE name = 'student_name_16';
+UPDATE student SET password = 'dit017' WHERE name = 'student_name_17';
+UPDATE student SET password = 'dit018' WHERE name = 'student_name_18';
+UPDATE student SET password = 'dit019' WHERE name = 'student_name_19';
+UPDATE student SET password = 'dit020' WHERE name = 'student_name_20';
+
+create table faclty(
+id INT AUTO_INCREMENT PRIMARY KEY,
+name varchar(50) Not Null,
+email varchar(50) Not Null,
+mo_number varchar(50) Not Null,
+rol varchar(10) not null,
+dept varchar(10) not null)
+password varchar(10) not null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+so many errors in adminsection and some part mistecks that i told full algoridham and all java fils you make one by one first the main mnu 3 type of ooption admin student and faclty . admin are 10 . faclaty are 20 and student is 200 that all name birthdate gamil id and more information you create . now in admin 12 type of opations 1all admin details (show proper all details ) 2My datails 3all student deatils 4all faclty deatils 5 student deatils ubtade 6faclty deatils updet 7 is new faclty add 8 new student add 9 events add 10new univecity upted add 11logout 12exit . all admin details to show all details for admin . my details in that admin can login there id password to that details will show in mydeatils . all student deatils show all student name id password result avreg for all sem and all emailid show . in faclty details show all faclty name that email id that id that password that role (hod,counsiller,prinsipal ) . in student details upted to enter any student id to show that all details and that all option to that upted the data same as fcalty but any all person as one primary id that can not change . new falty add and new student add to all details to get for user . in event add to any event cooming to admin that add to show all that event details and univecity uptedt to admin make any mesege in this section eveyone can show that now the student section 10 option show 1profile 2attendens 3fees 4result 5class upteds show 6mutirials links show 7events show  8(you are cr yes or no) if yes to one password to add class uptes and mutirials link in one class 1 cr in the univercity 20 class are thereredom cr and cr profile show that password and admin can show all passwords 9logout 10exit in student section . in profile show all details if there is cr show that password in attendens section student enter any date if faclty that date make that attendens that show in student else not data found or absent show . fees section now show comming soon show and one option press 0 to go back . result section to add falty sem vais all student results and student that enter sam number to show that result and faclty not add result not data found show class upted that cr make any note that show all students . mutirial links cr add any mutirial link that show student and last admin add any event deatils that student can show eles not data found . next the enter facalty 10 option are there 1profile 2salary 3all student deatils 4attendens 5show attendence any student with there id to show that attendens 6add mutirial link and show student 7any student persnal message to student show in class upteds the message is show 8log out 9exit 10event show for add admin to show faclty and student can be show .  now that can all file create one by one care fully
